@@ -32,8 +32,8 @@
       height: 100%;
       width: 100%;
       content: '';
+      background-color: $bg-dark-opacity;
       transition: $global-transition;
-      background: linear-gradient(0deg, rgba($color-dark, .4) 0, transparent 32%);
     }
 
     &:after {

@@ -1,6 +1,6 @@
 {
-  "name": "bold",
-  "version": "1.0.7",
+  "name": "Bold",
+  "version": "1.0.6",
   "description": "Blog and Magazine Clean Ghost Theme",
   "scripts": {
     "postinstall": "bower install"
@@ -16,22 +16,15 @@
     "gulp-jshint": "^2.0.1",
     "gulp-plumber": "^1.0.1",
     "gulp-rename": "^1.2.2",
-    "gulp-replace": "^0.6.1",
+    "gulp-replace": "^0.5.4",
     "gulp-sass": "^3.1.0",
-    "gulp-uglify": "^3.0.0",
+    "gulp-uglify": "^2.1.2",
     "gulp-util": "^3.0.7",
     "headroom.js": "^0.9.3",
     "jshint": "^2.9.2",
     "jshint-stylish": "^2.2.0",
     "prismjs": "^1.6.0",
-    "run-sequence": "^2.1.0"
+    "run-sequence": "^1.1.2"
   },
-  "author": {
-    "name": "Aspire Themes",
-    "email": "aspirethemes@gmail.com",
-    "url": "https://aspirethemes.com/"
-  },
-  "config": {
-    "posts_per_page": 6
-  }
+  "author": "Aspire Themes"
 }
