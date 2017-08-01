@@ -1195,7 +1195,7 @@ a.c-nav__link {
 }
 
 .c-nav__link--current {
-    color: #ff0;
+    color: #ff0 !important;
 }
 
 .home-template .c-nav__link--current:not(:hover) {
