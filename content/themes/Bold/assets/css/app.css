@@ -1408,11 +1408,8 @@ html {
         padding: 32px;
         background-color: #fff;
         -webkit-transform: translate3d(300px, 0, 0);
-        transform: translate3d(300px, 0, 0)
-    }
-
-    .c-off-canvas-content a {
-      color: #fff;
+        transform: translate3d(300px, 0, 0);
+        color: #000 !important;
     }
 }
 
