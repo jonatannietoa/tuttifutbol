@@ -1177,8 +1177,8 @@ textarea:hover {
     transition: .5s
 }
 
-.c-nav__link a {
-  color: #fff;
+a.c-nav__link {
+    color: #fff;
 }
 
 @media (max-width:63.99em) {
