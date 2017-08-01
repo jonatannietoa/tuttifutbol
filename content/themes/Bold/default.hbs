@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+  <title>{{ meta_title }}</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+  {{> compiled/inline-css }}
+
+  <script>
+    var pagination_next_page_number       = '{{ pagination.next }}',
+        pagination_available_pages_number = '{{ pagination.pages }}';
+  </script>
+
+  {{ ghost_head }}
+</head>
+<body class='{{ body_class }}'>
+
+  <div class='js-off-canvas-container c-off-canvas-container'>
+    {{> header }}
+
+    {{> hero }}
+
+    {{{ body }}}
+
+    {{> footer}}
+
+    {{ ghost_foot }}
+  </div>
+
+  <script src='{{ asset 'js/app.min.js' }}'></script>
+</body>
+</html>

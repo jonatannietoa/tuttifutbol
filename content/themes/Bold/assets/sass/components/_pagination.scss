@@ -1,0 +1,13 @@
+/*------------------------------------*\
+  Components > Pagination
+\*------------------------------------*/
+
+.c-pagination {
+  @include mq($from: tablet) {
+    padding: $base-spacing-unit;
+  }
+
+  @include mq($from: desktop) {
+    padding: double($base-spacing-unit);
+  }
+}

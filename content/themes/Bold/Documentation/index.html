@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Bold - Blog and Magazine Clean Ghost Theme</title>
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all">
+
+</head>
+<body>
+  <div class="wrap">
+
+    <header class="site-header" role="banner">
+      <h1 class="site-title">Bold</h1>
+      <p class="site-description">Theme Documentation</p>
+    </header><!-- .site-header -->
+
+    <div id="main">
+
+      <div class="intro">
+        <p>First of all a huge thanks for purchasing this theme! <br>Got a question? I’d love to hear from you. Send me a message and I’ll respond as soon as possible.</p>
+        <ul class="byline">
+          <li><em>Email:</em> <a href="mailto:aspirethemes@gmail.com">aspirethemes@gmail.com</a></li>
+          <li><em>Twitter:</em> <a href="https://twitter.com/aspirethemes">@aspirethemes</a></li>
+        </ul>
+      </div><!-- .intro -->
+
+      <div id="content" role="main">
+
+        <p><strong>✋ For the most recent updated documentation, please check the <a href="http://aspirethemes.com/docs/bold-ghost">online version</a></strong> 👉👉</p>
+
+        <section>
+          <h2 id="toc">Table of Contents</h2>
+          <ol>
+            <li>
+              <a href="#theme-info">Theme Information</a>
+            </li>
+            <li><a href="#gettingStarted">Theme Installation</a>
+            </li>
+            <li><a href="#themeFeatures">Theme Features</a>
+              <ol>
+                <li><a href="#StaticPages">Static Pages</a></li>
+                <li><a href="#Navigation">Navigation</a></li>
+                <li><a href="#DisqusComments">Disqus Comments</a></li>
+                <li><a href="#tags">Tags Page</a></li>
+                <li><a href="#Search">Search</a></li>
+                <li><a href="#GoogleAnalytics">Google Analytics</a></li>
+                <li><a href="#SocialMediaLinks">Social Media Links</a></li>
+                <li><a href="#ThemeDevelopment">Theme Development</a></li>
+              </ol>
+            </li>
+            <li><a href="#Credits">Credits</a></li>
+          </ol>
+
+          <hr />
+        </section>
+
+        <section>
+          <h2 id="theme-info">Theme Information</h2>
+          <ul>
+            <li>Name: <strong>Bold</strong> - Ghost Theme</li>
+            <li>Description: Blog and Magazine Clean Ghost Theme</li>
+            <li>Current Version: 1.0.7</li>
+            <li>Released: 30/7/2017</li>
+            <li>Creator: <a href="http://aspirethemes.com">aspirethemes.com</a></li>
+          </ul>
+          <hr />
+        </section>
+
+        <section>
+          <h2 id="theme-installation">Theme Installation - <a href="#toc">top</a></h2>
+          <ol>
+            <li>Log into the admin section of your Ghost blog yourblog.com/ghost.</li>
+            <li>Select General from the left hand side of your admin area and scroll to the bottom Themes section.</li>
+            <li>Click on the Upload a Theme green button.</li>
+            <li>An upload box will open, then choose the theme (maxima.zip) within the downloaded package.</li>
+            <li>Once uploaded, click on Activate now button to activate the theme immediately or Close if you want to activate it later.</li>
+          </ol>
+          <hr />
+        </section>
+
+        <section>
+          <h2 id="themeFeatures">Theme Features - <a href="#toc">top</a></h2>
+
+          <h3 id="StaticPages">Static Pages</h3>
+
+          <p>In order to create a static page you create a new post, just like you would any other post. Once you have opened up the new post, there is a cog wheel icon next to where it says "Save Draft" or "Update Post" depending on if you have published the post or not. Click on that cog, and check the "Turn this post into a static page" box. This will convert your post to a static page.</p>
+          <p><img src="assets/images/staticpage.png" width="858" height="490" alt="static page"/></p>
+
+          <hr />
+        </section>
+
+        <section>
+          <h3 id="Navigation">Navigation</h3>
+
+          <p>You can add, edit, delete and reorder menu links on your Ghost blog, directly from the navigation tool within the blog admin area, located at <strong>/ghost/settings/navigation/</strong>.</p>
+
+          <p><img src="assets/images/navigation-edit.png" alt="navigation menu"/></p>
+
+          <p>To include a static page on your navigation menu, first type the name of the page as you’d like it to appear on your menu in the label field.</p>
+
+          <p><img src="assets/images/label-field.png" alt="label field"/></p>
+
+          <p>Next, click inside the <strong>URL field</strong> of the menu item. The blog URL will auto-populate with http://yourdomain.com/. You will need to add in the page slug after the final <strong>/</strong>. Once satisfied with your page link, click the blue <strong>Save button</strong> to add the page to the navigation menu.</p>
+
+          <hr />
+        </section>
+
+        <section>
+          <h3 id="DisqusComments">Disqus Comments</h3>
+
+          <p>Bold Theme comes with Disqus commenting built-in, you just need to have a <strong>Disqus</strong> account (you can create it at <a href="https://disqus.com/">Disqus.com</a>). To enable commenting, open up partials folder <strong>(Bold/partials)</strong> and find the file <code>disqus.hbs</code>. Alter the line <code>"disqus_shortname = 'my_disqus_shortname';"</code> to match your Disqus account shortname.</p>
+
+          <p>If you wish to disable commenting, just remove all code from the file and save it. </p>
+
+          <hr />
+        </section>
+
+        <section>
+          <h3 id="tags">Tags Page</h3>
+          <p>To enable the tags page:</p>
+          <ul>
+            <li>Enable the <a href="http://support.ghost.org/public-api-beta/">Public API Beta</a>.</li>
+            <li>Create a new post and call it <code class="highlighter-rouge">Tags</code> for example, and make sure that the POST URl is <code class="highlighter-rouge">tags</code>.</li>
+            <li>Click the <code class="highlighter-rouge">Turn this post into a static page</code> checkbox.</li>
+            <li>Publish the page.</li>
+            <li>To add the page to the navigation, please check the <a href="#navigation">Navigation</a> section above.</li>
+          </ul>
+
+          <p><img src="assets/images/tags-page.png" alt="tags-page"/></p>
+
+          <hr />
+        </section>
+
+        <section>
+          <h3 id="Search">Search</h3>
+          <p>For the search to work properly, please enable the <a href="http://support.ghost.org/public-api-beta/">Public API Beta.</a></p>
+
+          <hr />
+        </section>
+
+        <section>
+          <h3 id="GoogleAnalytics">Google Analytics</h3>
+          <p>To integrate Google Analytics, I would recommend reading <a href="http://support.ghost.org/add-google-analytics-blog/" target="_blank">How do I add Google Analytics to my blog?</a> by Ghost.</p>
+
+          <hr />
+        </section>
+
+        <section>
+          <h3 id="SocialMediaLinks">Social Media Links</h3>
+          <p>Social media icons are placed in:</p>
+
+          <p>Social media icons are placed in:</p>
+
+          <ul>
+            <li><code>'partials/social-nav.hbs'</code></li>
+          </ul>
+
+          <p>Ghost 0.8.0 supports adding Facebook and Twitter profile urls from the admin panel, go to **Settings > General** and add your URLs, and this will update the Facebook and Twitter URLs in the location mentioned above, other social media URLs you can add it from the file.</p>
+
+          <p>
+            Here you can find a list of the social media icons:
+          </p>
+
+          <ul>
+            <li>
+              <strong>Twitter:</strong> <code>&lt;span data-icon=&quot;ei-sc-twitter&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+            </li>
+            <li>
+              <strong>Facebook:</strong> <code>&lt;span data-icon=&quot;ei-sc-facebook&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+            </li>
+            <li>
+              <strong>Instagram:</strong> <code>&lt;span data-icon=&quot;ei-sc-instagram&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+            </li>
+            <li>
+              <strong>Pinterest:</strong> <code>&lt;span data-icon=&quot;ei-sc-pinterest&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+            </li>
+            <li>
+              <strong>Vimeo:</strong> <code>&lt;span data-icon=&quot;ei-sc-vimeo&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+            </li>
+            <li>
+              <strong>Google-plus:</strong> <code>&lt;span data-icon=&quot;ei-sc-google-plus&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+            </li>
+            <li>
+              <strong>Soundcloud:</strong> <code>&lt;span data-icon=&quot;ei-sc-soundcloud&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+            </li>
+            <li>
+              <strong>Tumblr:</strong> <code>&lt;span data-icon=&quot;ei-sc-tumblr&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+            </li>
+            <li>
+              <strong>Youtube:</strong> <code>&lt;span data-icon=&quot;ei-sc-youtube&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+            </li>
+          </ul>
+
+          <p>
+            To add your URl to the links, just replace the <code>{{! Add Twitter handle }}</code>, for example with your username, and so on for other networks.
+          </p>
+
+          <p>
+            Bold is using <a href="http://evil-icons.io/">Evil Icons</a>, which are very simple and clean icons, and ther are different icons for different social networks.
+          </p>
+
+          <hr />
+        </section>
+
+        <section>
+          <h3 id="ThemeDevelopment">Theme Development</h3>
+          <p>Bold is using <a href="https://github.com/gulpjs/gulp" target="_blank">Gulp</a> to compile <a href="http://sass-lang.com/" target="_blank">Sass</a> and JavaScript code. This improved the development flow, and making it faster </p>
+
+          <p>First make sure you have <a href="https://nodejs.org/en/" target="_blank">Node.js</a>, <a href="https://www.npmjs.com/" target="_blank">npm</a> and <a href='https://bower.io/#install-bower'>Bower</a> installed then run the the following commands in the Bold theme directory to install npm dependencies.</p>
+          <p><code>npm install</code></p>
+          <p>To start Gulp, run:</p>
+          <p><code>gulp</code></p>
+          <p>This will compile Sass and JavaScript files, and start watching changes as you edit files.</p>
+
+          <hr />
+        </section>
+
+        <section>
+          <h2 id="Credits">Credits - <a href="#toc">top</a></h2>
+          <p>We have used the following scripts, fonts or other files as listed.</p>
+          <ul>
+            <li><a href="http://evil-icons.io/">Evil Icons</a></li>
+            <li><a href="http://fitvidsjs.com/">FitVids.js</a></li>
+            <li>Preview Images form <a href="https://unsplash.com/">unsplash.com</a></li>
+          </ul>
+          <hr />
+        </section>
+
+        <p><a href="#toc">Go To Table of Contents</a></p>
+      </div><!-- #content -->
+    </div><!-- #main -->
+    <footer class="site-info" role="contentinfo">
+      <p>© 2017 Aspire Themes. All rights reserved.</p>
+    </footer><!-- .site-info -->
+  </div><!-- .wrap -->
+</body>
+</html>
