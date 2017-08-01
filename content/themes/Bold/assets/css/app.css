@@ -1410,6 +1410,10 @@ html {
         -webkit-transform: translate3d(300px, 0, 0);
         transform: translate3d(300px, 0, 0)
     }
+
+    .c-off-canvas-content a {
+      color: #fff;
+    }
 }
 
 .c-tag-card__image:before,
