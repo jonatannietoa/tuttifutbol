@@ -1409,7 +1409,7 @@ html {
         background-color: #fff;
         -webkit-transform: translate3d(300px, 0, 0);
         transform: translate3d(300px, 0, 0);
-        color: #000 !important;
+        color: #000;
     }
 }
 
