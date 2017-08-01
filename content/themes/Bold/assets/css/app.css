@@ -1019,7 +1019,7 @@ textarea:hover {
 .c-header {
     padding: 8px 0;
     min-height: 44px;
-    background-color: rgba(0, 0, 0, .8)
+    background-color: #000;
 }
 
 .c-header--has-border {
@@ -1175,6 +1175,10 @@ textarea:hover {
     display: block;
     -webkit-transition: .5s;
     transition: .5s
+}
+
+.c-nav__link a {
+  color: #fff;
 }
 
 @media (max-width:63.99em) {
