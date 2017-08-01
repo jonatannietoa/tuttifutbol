@@ -1205,7 +1205,7 @@ a.c-nav__link {
 .c-nav__link:active,
 .c-nav__link:focus,
 .c-nav__link:hover {
-    color: #78909c;
+    color: #ff0;
     text-decoration: none
 }
 
