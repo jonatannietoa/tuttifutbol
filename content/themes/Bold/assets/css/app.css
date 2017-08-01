@@ -2123,7 +2123,7 @@ html {
 }
 
 .c-content {
-    font-family: "Libre Baskerville", serif
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial", sans-serif
 }
 
 .c-content a:not(.c-btn) {
