@@ -1199,7 +1199,7 @@ a.c-nav__link {
 }
 
 .home-template .c-nav__link--current:not(:hover) {
-    color: #323232
+    color: #ff0
 }
 
 .c-nav__link:active,
